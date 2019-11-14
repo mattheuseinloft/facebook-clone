@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialised !important;
+}
+
+header#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #4A90E2;
+  height: 64px;
+}
+
+header#header #facebook-logo {
+  width: 120.92px;
+  height: 23.93px;
+  margin-left: 42.03px;
+}
+
+header#header div.user-account {
+  display: flex;
+
+  margin-right: 63px;
+}
+
+header#header div.user-account p {
+  margin-right: 12px;
+}

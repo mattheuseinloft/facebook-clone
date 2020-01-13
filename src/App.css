@@ -1,38 +1,64 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 * {
-  height: 100%;
   margin: 0;
+  padding: 0;
+  outline: 0;
   box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialised !important;
+  background: lightgray;
 }
 
-header#header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
+header {
   background: #4A90E2;
-  height: 64px;
 }
 
-header#header #facebook-logo {
-  width: 120.92px;
-  height: 23.93px;
-  margin-left: 42.03px;
-}
-
-header#header div.user-account {
+header nav {
   display: flex;
-
-  margin-right: 63px;
+  justify-content: space-between;
+  color: #fff;
 }
 
-header#header div.user-account p {
-  margin-right: 12px;
+header nav img {
+  margin: 15px;
+  padding: 0 10px;
+}
+
+header nav div {
+  margin: 15px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav div span {
+  margin: 5px;
+  font-size: 20px;
+}
+
+header nav div i {
+  margin: 5px;
+}
+
+.postList {
+  display: flex;
+  flex-direction: column;
+}
+
+.postItem {
+  background: red;
+  /* margin: 25px 150px 50px 150px;
+  padding: 0 10px; */
+}
+
+.postItem img {
+  max-width: 100px;
 }

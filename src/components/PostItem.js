@@ -6,7 +6,7 @@ function PostItem({ data }) {
   return (
     <div className="postItem">
       <div className="postHeader">
-        <img src={data.author.avatar} />
+        <img className="avatar" src={data.author.avatar} />
         <div className="details">
           <span>{data.author.name}</span>
           <span>{data.date}</span>
@@ -18,6 +18,7 @@ function PostItem({ data }) {
       </div>
 
       <div className="commentList">
+        <div className="divider" />
         {data.comments.map(comment => <CommentItem key={comment.id} data={comment} />)}
       </div>
     </div>

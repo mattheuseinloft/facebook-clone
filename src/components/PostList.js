@@ -21,6 +21,14 @@ class PostList extends Component {
               avatar: "https://www.mnleadership.org/wp-content/uploads/2017/02/Anonymous-Avatar.png" 
             },
             content: "Totally agree!"
+          },
+          {
+            id: 2,
+            author: {
+              name: "Anonymous 2",
+              avatar: "https://www.mnleadership.org/wp-content/uploads/2017/02/Anonymous-Avatar.png" 
+            },
+            content: "Hell yeah!"
           }
         ]
       },
@@ -39,7 +47,7 @@ class PostList extends Component {
               name: "Anonymous",
               avatar: "https://www.mnleadership.org/wp-content/uploads/2017/02/Anonymous-Avatar.png" 
             },
-            content: "Ajsiadspaxpsaomcpoavposada"
+            content: "OOOOOOOOOOOOOWEEEEEEEEEEEEEEEEEEEE"
           }
         ]
       }

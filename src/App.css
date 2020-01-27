@@ -55,8 +55,8 @@ header nav div i {
 
 .postItem {
   background: #FFFFFF;
-  margin: 25px 150px 50px 150px;
-  padding: 0 10px;
+  margin: 25px 150px 0px 150px;
+  padding: 0 0 20px 10px;
 }
 
 .postItem img {
@@ -93,13 +93,16 @@ header nav div i {
 .commentItem {
   display: flex;
   margin-left: 10px;
+  margin-top: 20px;
 }
 
-.commentBox {
+.commentItem p {
   display: flex;
   align-items: center;
   background: #EEEEEE;
-  margin-left: 20px;
+  margin-left: 10px;
+  border-radius: 20px;
+  padding: 0 15px 0 15px;
 }
 
 .commentItem img {
@@ -107,10 +110,7 @@ header nav div i {
   border-radius: 50%;
 }
 
-#authorName {
+.commentItem span {
   font-weight: bold;
-}
-
-#commentContent {
-  margin-left: 5px;
+  margin-right: 6px;
 }

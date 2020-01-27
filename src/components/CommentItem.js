@@ -3,10 +3,10 @@ import React from 'react';
 function CommentItem({ data }) {
   return (
     <div className="commentItem">
-      <div>
-        <img src={data.author.avatar} />
-        <p>{data.author.name}</p>
-        <p>{data.content}</p>
+      <img src={data.author.avatar} />
+      <div className="commentBox">
+        <p id="authorName">{data.author.name}</p>
+        <p id="commentContent">{data.content}</p>
       </div>
     </div>
   );

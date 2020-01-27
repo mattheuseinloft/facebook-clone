@@ -14,7 +14,7 @@ body {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: lightgray;
+  background: #F2F2F2;
 }
 
 header {
@@ -54,11 +54,63 @@ header nav div i {
 }
 
 .postItem {
-  background: red;
-  /* margin: 25px 150px 50px 150px;
-  padding: 0 10px; */
+  background: #FFFFFF;
+  margin: 25px 150px 50px 150px;
+  padding: 0 10px;
 }
 
 .postItem img {
-  max-width: 100px;
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+.postHeader {
+  margin: 10px 0px 0px 10px;
+  display: flex;
+}
+
+.postHeader .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.postHeader .details span:first-child {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.postHeader .details span:last-child {
+  color: gray;
+}
+
+.postContent {
+  margin: 20px 0px 30px 15px;
+}
+
+.commentItem {
+  display: flex;
+  margin-left: 10px;
+}
+
+.commentBox {
+  display: flex;
+  align-items: center;
+  background: #EEEEEE;
+  margin-left: 20px;
+}
+
+.commentItem img {
+  max-width: 35px;
+  border-radius: 50%;
+}
+
+#authorName {
+  font-weight: bold;
+}
+
+#commentContent {
+  margin-left: 5px;
 }

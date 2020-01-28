@@ -18,7 +18,7 @@ function PostItem({ data }) {
       </div>
 
       <div className="commentList">
-        <div className="divider" />
+      <div className="divider" />
         {data.comments.map(comment => <CommentItem key={comment.id} data={comment} />)}
       </div>
     </div>

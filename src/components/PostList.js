@@ -2,71 +2,59 @@ import React, { Component } from 'react';
 
 import PostItem from './PostItem';
 
+import profile from '../assets/profile.jpeg';
+
 class PostList extends Component {
   state = {
     posts: [
       {
         id: 1,
         author: {
-          name: "Rick Sanchez",
-          avatar: "https://avatarfiles.alphacoders.com/106/106923.jpg"
+          name: "Mattheus Einloft",
+          avatar: profile
         },
-        date: "Dec 20 2019",
-        content: "To live is to risk it all; otherwise you're just an inert chunk of randomly assembled molecules drifting wherever the universe blows you...",
+        date: "27 Jan 2020",
+        content: "Desenvolvi essa interface semelhante à do Facebook utilizando React. Alguém poderia fazer um \"code review\" de meu projeto, para que eu possa melhorar cada vez mais? Sugestões de design da interface também são bem-vindas. Obrigado! :)",
         comments: [
           {
             id: 1,
             author: {
-              name: "Anonymous",
+              name: "Anônimo",
               avatar: "https://www.mnleadership.org/wp-content/uploads/2017/02/Anonymous-Avatar.png" 
             },
-            content: "Totally agree!"
-          },
-          {
-            id: 2,
-            author: {
-              name: "Anonymous 2",
-              avatar: "https://www.mnleadership.org/wp-content/uploads/2017/02/Anonymous-Avatar.png" 
-            },
-            content: "Hell yeah!"
+            content: "Ficou muito bom! Parabéns, Mattheus!"
           }
         ]
       },
       {
         id: 2,
         author: {
-          name: "Mr. Poopybutthole",
-          avatar: "https://pm1.narvii.com/6422/133d35d8b3d6c3ba640ef8d41df8701a41b328fb_hq.jpg"
+          name: 'Gabriel Souza',
+          avatar: 'https://i.pravatar.cc/150?img=51'
         },
-        date: "Dec 30 2019",
-        content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        date: '28 Jan 2020',
+        content:
+          'Fala galera, beleza?\nEstou fazendo o Bootcamp GoStack e está sendo muito massa! Alguém mais aí fazendo? Comenta aí na publicação para trocarmos uma idéia',
         comments: [
           {
             id: 1,
             author: {
-              name: "Anonymous",
-              avatar: "https://www.mnleadership.org/wp-content/uploads/2017/02/Anonymous-Avatar.png" 
+              name: 'Clara Gomes',
+              avatar: 'https://i.pravatar.cc/150?img=5'
             },
-            content: "\"Neque porro quisquam est sadsadsadsadsadsadkbsa ouincusaondosa pndopasndopsandosandipsandipnsaid;nsa; nsa isanipdnaspidnmaspcqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...\""
-          }
-        ]
-      },
-      {
-        id: 3,
-        author: {
-          name: "Mr. Poopybutthole",
-          avatar: "https://pm1.narvii.com/6422/133d35d8b3d6c3ba640ef8d41df8701a41b328fb_hq.jpg"
-        },
-        date: "Dec 30 2019",
-        content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        comments: [
+            date: '04 Jun 2019',
+            content:
+              'Também estou fazendo o Bootcamp e estou adorando! Estou no terceiro módulo sobre Node e já tenho minha API dos desafios construída!'
+          },
           {
-            id: 1,
+            id: 2,
             author: {
-              name: "Anonymous",
-              avatar: "https://www.mnleadership.org/wp-content/uploads/2017/02/Anonymous-Avatar.png" 
+              name: 'Tiago Almeida',
+              avatar: 'https://i.pravatar.cc/150?img=11'
             },
-            content: "\"Neque porro quisquam est sadsa dsadsa dsadsadkbsa ouincus aondosa pndopa sndops andosandip sandipnsaid;nsa; nsa isanipdnaspidnmaspcqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Lorem ipsum lorem isaidsai asdaisds asdaiq iasd asidas sadasidsac asidas asdsaicda sadsa...\""
+            date: '04 Jun 2019',
+            content:
+              'Que maaaaaassa! Estou pensando em me inscrever na próxima turma pra ver qual é desse Bootcamp GoStack, dizem que os devs saem de lá com super poderes'
           }
         ]
       }

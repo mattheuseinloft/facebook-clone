@@ -13,7 +13,7 @@ class PostList extends Component {
           name: "Mattheus Einloft",
           avatar: profile
         },
-        date: "27 Jan 2020",
+        date: "29 Jan 2020",
         content: "Desenvolvi essa interface semelhante à do Facebook utilizando React. Alguém poderia fazer um \"code review\" de meu projeto, para que eu possa melhorar cada vez mais? Sugestões de design da interface também são bem-vindas. Obrigado! :)",
         comments: [
           {
@@ -32,7 +32,7 @@ class PostList extends Component {
           name: 'Gabriel Souza',
           avatar: 'https://i.pravatar.cc/150?img=51'
         },
-        date: '28 Jan 2020',
+        date: '27 Jan 2020',
         content:
           'Fala galera, beleza?\nEstou fazendo o Bootcamp GoStack e está sendo muito massa! Alguém mais aí fazendo? Comenta aí na publicação para trocarmos uma idéia',
         comments: [
